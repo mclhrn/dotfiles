@@ -2,6 +2,8 @@
 
 ## Introduction
 
+###### ** My fork (mclhrn) removes the 'mackup' sections from the docs and the scripts. I manually handled this as I wanted to use this as an opportunity to clean up my local folders**
+
 This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything needed to install my preferred setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy!
 
 📖 - [Read the blog post](https://driesvints.com/blog/getting-started-with-dotfiles)  
@@ -22,7 +24,7 @@ If you're migrating from an existing Mac, you should first make sure to backup a
 - Did you remember to save all important documents from non-iCloud directories?
 - Did you save all of your work from apps which aren't synced through iCloud?
 - Did you remember to export important data from your local database?
-- Did you update [mackup](https://github.com/lra/mackup) to the latest version and ran `mackup backup`?
+~~- Did you update [mackup](https://github.com/lra/mackup) to the latest version and ran `mackup backup`?~~
 
 ### Setting up your Mac
 
@@ -47,9 +49,9 @@ After backing up your old Mac you may now follow these install instructions to s
     cd ~/.dotfiles && ./fresh.sh
     ```
 
-5. Start `Herd.app` and run its install process
-6. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
-7. Restart your computer to finalize the process
+~~5. Start `Herd.app` and run its install process~~
+~~6. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`~~
+~~7. Restart your computer to finalize the process~~
 
 Your Mac is now ready to use!
 
