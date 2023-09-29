@@ -24,6 +24,13 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Get oc cli for openshift and kubernetes
+# Password is required to mv executables to /usr/local/bin on new rh managed macs
+wget https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/macosx/oc.tar.gz
+tar -xvf oc.tar.gz
+sudo mv oc /usr/local/bin
+sudo mv kubectl /usr/local/bin
+
 # Install kubens (kubens is a tool to switch between Kubernetes namespaces (and configure them for kubectl) easily)
 curl -sS https://webi.sh/kubens | sh
 
@@ -33,4 +40,5 @@ ln -sfn \
      /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 # Set macOS preferences - we will run this last because this will reload the shell
-#source ./.macos
+# shellcheck disable=SC2039
+source ./.macos

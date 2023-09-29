@@ -14,7 +14,7 @@ brew 'gh'
 brew 'git'
 brew 'grep'
 brew 'httpie'
-brew 'jq' # Used for spatie/visit
+brew 'jq'
 brew 'yq'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
