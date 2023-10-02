@@ -7,6 +7,9 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias compile="commit 'compile'"
 alias version="commit 'version'"
 
+# Open application
+alias idea="open -na \"IntelliJ IDEA.app\""
+
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"

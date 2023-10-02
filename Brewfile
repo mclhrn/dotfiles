@@ -73,6 +73,7 @@ cask 'transmit'
 cask 'tunnelbear'
 cask 'tuple'
 cask 'visual-studio-code'
+cask 'intellij-idea'
 cask 'zoom'
 
 # Quicklook
