@@ -2,8 +2,17 @@
 
 ## Introduction
 
-###### ** My fork (mclhrn) removes the 'mackup' sections from the docs and the scripts. I manually handled this as I wanted to use this as an opportunity to clean up my local folders**
+```
+** My fork (mclhrn) removes the 'mackup' sections from the docs and the scripts. I manually handled this as I wanted to use this as an opportunity to clean up my local folders**
 
+The original fork is very focused on setting up a php/lavarel environment. This fork removes that focus and attempts to instead have a focus on application development for kuberenetes, specifically openshift.
+
+Several tools are installed via Brew, and some are installed from the script if not available via Brew.
+
+This is a work in progess. I will conintue to build out the applications and aliases as I discover them. Feel free to PR and add something useful.
+
+```
+###### 
 This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything needed to install my preferred setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy!
 
 📖 - [Read the blog post](https://driesvints.com/blog/getting-started-with-dotfiles)  
