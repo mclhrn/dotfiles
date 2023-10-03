@@ -22,6 +22,8 @@ ZSH_CUSTOM=$DOTFILES
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# Dump compinit to cache location
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 source $ZSH/oh-my-zsh.sh
 
 # Load nvm
