@@ -37,20 +37,22 @@ brew 'redis'
 # Languages
 brew 'java'
 brew 'maven'
-brew 'go'
 brew 'gradle'
 brew 'node'
 brew 'nvm'
 brew 'yarn'
 brew 'python@3.9'
+brew 'go'
 
 # Kubernetes
+brew 'kubernetes-cli'
+brew 'openshift-cli'
+brew 'tektoncd-cli'
 brew 'podman'
+brew 'skopeo'
 brew 'kubectx'
 brew 'ansible'
 brew 'helm'
-brew 'skopeo'
-brew 'tektoncd-cli'
 
 # Apps
 cask '1password'
